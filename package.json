@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "hlth-320-lab",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "description": "An informational site for the HTLH 320 Lab at Cal Poly. Go Mustangs!",
+  "version": "1.0.0",
+  "author": "Matthew Nelson",
   "dependencies": {
     "@material-ui/core": "^4.8.3",
     "gatsby": "^2.18.12",
@@ -39,16 +36,11 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
