@@ -3,7 +3,7 @@ module.exports = {
     title: `HLTH 320 Lab`,
     author: `Matthew Nelson`,
     description: `An informational site for the HTLH 320 Lab at Cal Poly. Go Mustangs!`,
-    siteUrl: ``,
+    siteUrl: `https://github.com/Matthew-Nelson/hlth-320-lab`,
     social: {
       twitter: ``,
     },
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/cal-poly-logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
