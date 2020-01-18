@@ -14,6 +14,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
+        Hello HTLH 320 lab students! I am putting this site together to act as a place to organize some of the materials for this course. Right now it is pretty barebones but I will be adding more as the course goes on!
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
