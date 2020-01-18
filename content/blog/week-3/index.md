@@ -13,6 +13,7 @@ description: "Week 3 Lab Details"
 * CodeCademy CSS:
     * <a href="https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css" target="_blank">CSS Setup and Selectors</a>
     * <a href="https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules/exercises/css-visual-rules" target="_blank">CSS Visual Rules</a>
+* Download <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> on your home computer. It is a text editor that will (hopefully) be on our computers in lab and you will *definitely* be needing it to complete some of your homework.
     
 ## Tonight in Lab
 
