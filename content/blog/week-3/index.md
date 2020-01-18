@@ -1,7 +1,7 @@
 ---
 title: Week 3
 date: "2020-01-17T00:00:00.000Z"
-description: "Week 3 Lab Details"
+description: "Week 3 - Lab Details"
 ---
 
 ## Homework to be completed before lab this week
