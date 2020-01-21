@@ -1,7 +1,7 @@
 ---
 title: Week 3
 date: "2020-01-17T00:00:00.000Z"
-description: "Week 3 - Lab Details"
+description: "Week 3 - We learn about the web and start our HTML sites"
 ---
 
 ## Homework to be completed before lab this week
@@ -13,13 +13,13 @@ description: "Week 3 - Lab Details"
 * CodeCademy CSS:
     * <a href="https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css" target="_blank">CSS Setup and Selectors</a>
     * <a href="https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules/exercises/css-visual-rules" target="_blank">CSS Visual Rules</a>
-* Download <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> on your home computer. It is a text editor that will (hopefully) be on our computers in lab and you will *definitely* be needing it to complete some of your homework.
+* Download and install <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> on your home computer. It is a text editor that will (hopefully) be on our computers in lab and you will *definitely* be needing it to complete some of your homework later on in the quarter.
     
 ## Tonight in Lab
 
 * Initial questions from homework
 * Intro to the web!
-* Do the HTML Checkpoint #1 - Official end of lab
+* Do the HTML Site Checkpoint #1 - Official end of lab
 * Free time for help on sites or homework
 
 ## Due at the end of lab

@@ -14,22 +14,29 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        Hello HTLH 320 lab students! I am putting this site together to act as a place to organize some of the materials for this course. Right now it is pretty barebones but I will be adding more as the course goes on!
+        <p
+          style={{
+            marginTop: '1.75rem',
+          }}
+        >Hello HTLH 320 lab students! I am putting this site together to act as a place to organize some of the materials for this course as well as provide a convenient medium for communication. Right now it is pretty barebones but I will be adding more as the course goes on!</p>
+        <p>- Matt</p>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
+              <hr/>
               <header>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
+                    marginTop: '1.75rem',
                   }}
                 >
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+                <small>Posted on: {node.frontmatter.date}</small>
               </header>
               <section>
                 <p
@@ -38,9 +45,11 @@ class BlogIndex extends React.Component {
                   }}
                 />
               </section>
+              
             </article>
           )
         })}
+        <hr/>
       </Layout>
     )
   }
@@ -55,7 +64,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       edges {
         node {
           excerpt
