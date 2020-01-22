@@ -17,8 +17,11 @@ description: "Week 3 - We learn about the web and start our HTML sites"
     
 ## Tonight in Lab
 
-* Initial questions from homework
-* Intro to the web!
+* Questions from CodeCademy homework and digital lectures:
+    * [How does the Internet work?](https://www.youtube.com/watch?v=oj7A2YDgIWE)
+    * [Don’t Fear the Internet, Episode 1](https://vimeo.com/24006296)
+    * [Who Invented the Internet? And Why?](https://www.youtube.com/watch?v=21eFwbb48sE)
+    * [World Wide Web - Web Development](https://www.youtube.com/watch?v=NBI9kXzMHS0)
 * Do the [HTML Site Checkpoint #1](/html-checkpoint-one/) - Official end of lab
 * Free time for help on sites or homework
 
