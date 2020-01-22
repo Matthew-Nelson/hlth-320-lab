@@ -36,6 +36,7 @@ class BlogPostTemplate extends React.Component {
             >
               Posted on: {post.frontmatter.date}
             </p>
+            <hr />
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
