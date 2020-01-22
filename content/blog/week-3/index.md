@@ -19,7 +19,7 @@ description: "Week 3 - We learn about the web and start our HTML sites"
 
 * Initial questions from homework
 * Intro to the web!
-* Do the HTML Site Checkpoint #1 - Official end of lab
+* Do the [HTML Site Checkpoint #1](/html-checkpoint-one/) - Official end of lab
 * Free time for help on sites or homework
 
 ## Due at the end of lab
