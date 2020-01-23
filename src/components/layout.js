@@ -3,6 +3,23 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import MenuDrawer from './menu-drawer.js';
+
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: `#035642`
+    },
+  },
+  typography: {
+    fontFamily: `Merriweather, Georgia, serif`
+  },
+});
+
+console.log(theme);
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -52,20 +69,26 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built by Matt Nelson
-        </footer>
-      </div>
+      <ThemeProvider theme={theme}>
+        <MenuDrawer/>
+        <div
+          style={{
+            marginLeft: `auto`,
+            marginRight: `auto`,
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            position: `relative`,
+          }}
+        >
+          <header>{header}</header>
+          <main>
+            {children}
+          </main>
+          <footer>
+            © {new Date().getFullYear()}, Built by Matt Nelson
+          </footer>
+        </div>
+      </ThemeProvider>
     )
   }
 }
