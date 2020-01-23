@@ -171,7 +171,7 @@ export default function PersistentDrawerLeft() {
 
                 return (
                     <Link to={obj.url}>
-                        <ListItem button key={obj.title}>
+                        <ListItem button key={index+1}>
                             <ListItemIcon style={{color: '#035642'}}>{icon}</ListItemIcon>
                             <ListItemText primary={obj.title} />
                         </ListItem>
