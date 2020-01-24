@@ -16,20 +16,30 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         <p
           style={{
-            marginTop: '1.75rem',
+            marginTop: "1.75rem",
           }}
-        >Hello HTLH 320 lab students! I am putting this site together to act as a place to organize some of the materials for this course as well as provide a convenient medium for communication. Right now it is pretty barebones but I will be adding more as the course goes on!</p>
+        >
+          Hello HTLH 320 lab students! I am putting this site together to act as
+          a place to organize some of the materials for this course as well as
+          provide a convenient medium for communication. Right now it is pretty
+          barebones but I will be adding more as the course goes on!
+        </p>
+        <p>
+          As you review the weekly outlines, please note that the schedule and
+          assignments due are subject to change. There may be some topics that
+          we cover in less detail than originally expected.
+        </p>
         <p>- Matt</p>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
-              <hr/>
+              <hr />
               <header>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
-                    marginTop: '1.75rem',
+                    marginTop: "1.75rem",
                   }}
                 >
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
@@ -45,11 +55,10 @@ class BlogIndex extends React.Component {
                   }}
                 />
               </section>
-              
             </article>
           )
         })}
-        <hr/>
+        <hr />
       </Layout>
     )
   }
