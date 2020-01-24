@@ -15,8 +15,6 @@ const theme = createMuiTheme({
   },
 })
 
-console.log(theme)
-
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
