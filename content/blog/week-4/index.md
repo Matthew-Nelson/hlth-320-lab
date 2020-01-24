@@ -2,6 +2,7 @@
 title: Week 4
 date: "2020-01-21T01:00:00.000Z"
 description: "Week 4- We learn more CSS and keep working on our HTML sites"
+classification: "week"
 ---
 
 ## Homework to be completed before lab this week
@@ -14,6 +15,8 @@ description: "Week 4- We learn more CSS and keep working on our HTML sites"
     
 ## Tonight in Lab
 
+* Review <a href="/html-checkpoint-one/">HTML Site Checkpoint #1</a> and complete an example as a class
+* <a href="https://codepen.io/" target="_blank">CodePen.io</a> CSS exercise
 * Resume.html markup
 * HTML Site Checkpoint #2 - Official end of lab
 * Free time for help on sites or homework
