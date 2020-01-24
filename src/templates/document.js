@@ -18,7 +18,6 @@ class DocumentTemplate extends React.Component {
         />
         <article>
           <header>
-            THIS IS A DOCUMENT TEMPLATE
             <h1
               style={{
                 marginTop: rhythm(1),

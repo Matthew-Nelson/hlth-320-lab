@@ -239,6 +239,41 @@ export default function PersistentDrawerLeft() {
               classification: "assignment",
               url: "/html-checkpoint-one/",
             },
+            {
+              title: "HTML Site Checkpoint #2",
+              classification: "assignment",
+              url: "#",
+            },
+            {
+              title: "HTML Site Checkpoint #3",
+              classification: "assignment",
+              url: "#",
+            },
+            {
+              title: "HTML Site Checkpoint #4",
+              classification: "assignment",
+              url: "#",
+            },
+            {
+              title: "Final HTML Site",
+              classification: "assignment",
+              url: "#",
+            },
+            {
+              title: "Footage Challenge #1",
+              classification: "assignment",
+              url: "#",
+            },
+            {
+              title: "Footage Challenge #2",
+              classification: "assignment",
+              url: "#",
+            },
+            {
+              title: "Video PSA",
+              classification: "assignment",
+              url: "#",
+            },
           ].map((obj, index) => {
             let icon
             switch (obj.classification) {
@@ -252,9 +287,21 @@ export default function PersistentDrawerLeft() {
                 icon = <DateRangeIcon />
             }
 
+            let linkStyle
+            if (obj.url === "#") {
+              linkStyle = {
+                pointerEvents: "none",
+                backgroundColor: "rgba(0, 0, 0, 0.08)",
+              }
+            }
+
             return (
-              <Link to={obj.url}>
-                <ListItem button key={obj.title}>
+              <Link to={obj.url} style={linkStyle}>
+                <ListItem
+                  button
+                  key={obj.title}
+                  style={{ backgroundColor: "inherit" }}
+                >
                   <ListItemIcon style={{ color: "#035642" }}>
                     {icon}
                   </ListItemIcon>

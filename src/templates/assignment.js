@@ -18,7 +18,6 @@ class AssignmentTemplate extends React.Component {
         />
         <article>
           <header>
-            THIS IS AN ASSIGNMENT TEMPLATE
             <h1
               style={{
                 marginTop: rhythm(1),

@@ -6,3 +6,5 @@ classification: "document"
 ---
 
 ## HELLO WORLD SYLlabus
+
+### I need to lay things out clearly because right now everything is FUBAR on PL
