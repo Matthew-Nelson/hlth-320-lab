@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -50,23 +49,3 @@ class DocumentTemplate extends React.Component {
 }
 
 export default DocumentTemplate
-
-export const pageQuery = graphql`
-  query DocumentBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-      }
-    }
-  }
-`

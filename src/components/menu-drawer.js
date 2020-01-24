@@ -262,7 +262,7 @@ export default function PersistentDrawerLeft() {
             {
               title: "Footage Challenge #1",
               classification: "assignment",
-              url: "#",
+              url: "/footage-challenge-one/",
             },
             {
               title: "Footage Challenge #2",
@@ -288,20 +288,19 @@ export default function PersistentDrawerLeft() {
             }
 
             let linkStyle
+            let buttonStyle
             if (obj.url === "#") {
               linkStyle = {
                 pointerEvents: "none",
+              }
+              buttonStyle = {
                 backgroundColor: "rgba(0, 0, 0, 0.08)",
               }
             }
 
             return (
               <Link to={obj.url} style={linkStyle}>
-                <ListItem
-                  button
-                  key={obj.title}
-                  style={{ backgroundColor: "inherit" }}
-                >
+                <ListItem button key={obj.title} style={buttonStyle}>
                   <ListItemIcon style={{ color: "#035642" }}>
                     {icon}
                   </ListItemIcon>

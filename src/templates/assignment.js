@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -50,23 +49,3 @@ class AssignmentTemplate extends React.Component {
 }
 
 export default AssignmentTemplate
-
-export const pageQuery = graphql`
-  query AssignmentBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-      }
-    }
-  }
-`
