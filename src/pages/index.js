@@ -73,7 +73,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: ASC }
+      filter: { frontmatter: { classification: { eq: "week" } } }
+    ) {
       edges {
         node {
           excerpt
