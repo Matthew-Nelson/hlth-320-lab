@@ -1,24 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import { rhythm, scale } from "../utils/typography"
-
-import MenuDrawer from './menu-drawer.js';
-
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import MenuDrawer from "./menu-drawer.js"
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles"
 
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: `#035642`
+      main: `#035642`,
     },
   },
   typography: {
-    fontFamily: `Merriweather, Georgia, serif`
+    fontFamily: `Merriweather, Georgia, serif`,
   },
-});
+})
 
-console.log(theme);
+console.log(theme)
 
 class Layout extends React.Component {
   render() {
@@ -70,7 +67,7 @@ class Layout extends React.Component {
     }
     return (
       <ThemeProvider theme={theme}>
-        <MenuDrawer/>
+        <MenuDrawer />
         <div
           style={{
             marginLeft: `auto`,
@@ -81,12 +78,8 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
-          <main>
-            {children}
-          </main>
-          <footer>
-            © {new Date().getFullYear()}, Built by Matt Nelson
-          </footer>
+          <main>{children}</main>
+          <footer>© {new Date().getFullYear()}, Built by Matt Nelson</footer>
         </div>
       </ThemeProvider>
     )

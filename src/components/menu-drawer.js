@@ -17,6 +17,7 @@ import AssignmentIcon from "@material-ui/icons/Assignment"
 import HomeIcon from "@material-ui/icons/Home"
 import DateRangeIcon from "@material-ui/icons/DateRange"
 import { Link } from "gatsby"
+import calPolyLogo from "../../content/assets/cal-poly-logo.png"
 
 const drawerWidth = 240
 
@@ -77,6 +78,12 @@ const useStyles = makeStyles(theme => ({
   listStyle: {
     marginLeft: 0,
   },
+  logoStyle: {
+    marginBottom: 0,
+    maxWidth: "35px",
+    position: "absolute",
+    right: "20px",
+  },
 }))
 
 export default function PersistentDrawerLeft() {
@@ -115,6 +122,11 @@ export default function PersistentDrawerLeft() {
               <HomeIcon />
             </IconButton>
           </Link>
+          <img
+            src={calPolyLogo}
+            alt="Cal Poly Logo"
+            className={classes.logoStyle}
+          />
         </Toolbar>
       </AppBar>
       <Drawer
@@ -234,6 +246,11 @@ export default function PersistentDrawerLeft() {
         </h4>
         <List className={classes.listStyle}>
           {[
+            {
+              title: "5x5 Digital Video Story",
+              classification: "assignment",
+              url: "#",
+            },
             {
               title: "HTML Site Checkpoint #1",
               classification: "assignment",
