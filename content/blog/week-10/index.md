@@ -1,7 +1,7 @@
 ---
 title: Week 10
 date: "2020-01-23T05:00:00.000Z"
-description: "Week 10 - Open lab time on both nights."
+description: "Open lab time on both nights."
 classification: "week"
 ---
 

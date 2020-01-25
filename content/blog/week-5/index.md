@@ -1,7 +1,7 @@
 ---
 title: Week 5
 date: "2020-01-23T00:05:00.000Z"
-description: "Week 5 - We dive into Bootstrap and continue working on our HTML sites"
+description: "We dive into Bootstrap and continue working on our HTML sites"
 classification: "week"
 ---
 

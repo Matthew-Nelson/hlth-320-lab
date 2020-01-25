@@ -1,7 +1,7 @@
 ---
 title: Week 7
 date: "2020-01-23T02:00:00.000Z"
-description: "Week 7 - No Monday lab due to President's Day. Wednesday is open lab."
+description: "No Monday lab due to President's Day. Wednesday is open lab."
 classification: "week"
 ---
 

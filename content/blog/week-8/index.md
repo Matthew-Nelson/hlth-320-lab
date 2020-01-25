@@ -1,7 +1,7 @@
 ---
 title: Week 8
 date: "2020-01-23T03:00:00.000Z"
-description: "Week 8 - More web work!"
+description: "More web work!"
 classification: "week"
 ---
 

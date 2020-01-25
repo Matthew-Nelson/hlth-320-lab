@@ -1,7 +1,7 @@
 ---
 title: Week 9
 date: "2020-01-23T04:00:00.000Z"
-description: "Week 9 - More video production"
+description: "More video production"
 classification: "week"
 ---
 

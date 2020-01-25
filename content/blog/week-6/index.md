@@ -1,7 +1,7 @@
 ---
 title: Week 6
 date: "2020-01-23T01:00:00.000Z"
-description: "Week 6 - Video Production and Photo Editing"
+description: "Video Production and Photo Editing"
 classification: "week"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Week 3
 date: "2020-01-17T00:00:00.000Z"
-description: "Week 3 - We learn about the web and start our HTML sites"
+description: "We learn about the web and start our HTML sites"
 classification: "week"
 ---
 
