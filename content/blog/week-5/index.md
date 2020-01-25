@@ -7,20 +7,20 @@ classification: "week"
 
 ## Homework to be completed before lab this week
 
-* CodeCademy CSS:
-    * <a href="https://www.codecademy.com/courses/learn-css/lessons/color/exercises/what-is-color" target="_blank">CSS Color</a>
-    * <a href="https://www.codecademy.com/courses/learn-css/lessons/css-typography/exercises/typography" target="_blank">CSS Typography</a>
+- CodeCademy CSS:
+  - <a href="https://www.codecademy.com/courses/learn-css/lessons/color/exercises/what-is-color" target="_blank">CSS Color</a>
+  - <a href="https://www.codecademy.com/courses/learn-css/lessons/css-typography/exercises/typography" target="_blank">CSS Typography</a>
 
 ## Tonight in Lab
 
-* Customizing with CSS
-* Intoduction to Boostrap
-* HTML Site Checkpoint #3
+- Customizing with CSS
+- Intoduction to Boostrap
+- HTML Site Checkpoint #3
 
 ## Due at the end of lab
 
-* HTML Site Checkpoint #3
+- HTML Site Checkpoint #3
 
 ## Homework for next week
 
-* Footage Challenge #1
+- Footage Challenge #1

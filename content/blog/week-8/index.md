@@ -7,17 +7,17 @@ classification: "week"
 
 ## Homework to be completed before lab this week
 
-* CodeCademy CSS 6a
-* CodeCademy CSS 6d
+- CodeCademy CSS 6a
+- CodeCademy CSS 6d
 
 ## Tonight in Lab
 
-* More web work!
+- More web work!
 
 ## Due at the end of lab
 
-* HTML Site Checkpoint #4
+- HTML Site Checkpoint #4
 
 ## Homework for next week
 
-* Footage Challenge #2
+- Footage Challenge #2

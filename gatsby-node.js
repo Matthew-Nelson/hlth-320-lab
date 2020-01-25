@@ -4,9 +4,9 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`);
-  const labAssignment = path.resolve(`./src/templates/assignment.js`);
-  const labDocument = path.resolve(`./src/templates/document.js`);
+  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const labAssignment = path.resolve(`./src/templates/assignment.js`)
+  const labDocument = path.resolve(`./src/templates/document.js`)
 
   const result = await graphql(
     `
@@ -34,21 +34,43 @@ exports.createPages = async ({ graphql, actions }) => {
   if (result.errors) {
     throw result.errors
   }
-  
-  // Create pages.
-  const posts = result.data.allMarkdownRemark.edges
-  posts.forEach((post, index) => {
+  const allFiles = result.data.allMarkdownRemark.edges
 
+  const posts = []
+  const documents = []
+  const assignments = []
+
+  allFiles.forEach(file => {
+    switch (file.node.frontmatter.classification) {
+      case "week":
+        // templateType = blogPost
+        posts.push(file)
+        break
+      case "document":
+        // templateType = labDocument
+        documents.push(file)
+        break
+      case "assignment":
+        // templateType = labAssignment
+        assignments.push(file)
+        break
+    }
+  })
+
+  // Create posts.
+  // const posts = result.data.allMarkdownRemark.edges
+
+  posts.forEach((post, index) => {
     switch (post.node.frontmatter.classification) {
       case "week":
-        templateType = blogPost;
-        break;
+        templateType = blogPost
+        break
       case "document":
-        templateType = labDocument;
-        break;
+        templateType = labDocument
+        break
       case "assignment":
-        templateType = labAssignment;
-        break;
+        templateType = labAssignment
+        break
     }
 
     const previous = index === posts.length - 1 ? null : posts[index + 1].node

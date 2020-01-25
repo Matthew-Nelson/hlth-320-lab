@@ -7,17 +7,17 @@ classification: "week"
 
 ## Homework to be completed before lab this week
 
-* Footage Challenge #1
+- Footage Challenge #1
 
 ## Tonight in Lab
 
-* Look through and discuss samples of student footage from Footage Challenge #1
-* Photo editing activity
+- Look through and discuss samples of student footage from Footage Challenge #1
+- Photo editing activity
 
 ## Due at the end of lab
 
-* Results of our photo editing activity
+- Results of our photo editing activity
 
 ## Homework for next week
 
-* Open lab next week
+- Open lab next week
