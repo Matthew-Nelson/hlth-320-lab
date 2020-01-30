@@ -33,8 +33,8 @@ class HtmlCheckpointTwo extends React.Component {
         </p>
 
         <h3>
-          I. Set Up Your Content Files and name it your-name-site-checkpoint1
-          (e.g., gary-katz-site-checkpoint2)
+          I. Create a copy of your content files from Site Checkpoint 1 and name
+          it your-name-site-checkpoint2 (e.g., gary-katz-site-checkpoint2)
         </h3>
         <p>Make sure to use 'firstname-lastname-site-checkpoint2' formatting</p>
 
@@ -56,7 +56,6 @@ class HtmlCheckpointTwo extends React.Component {
         </h3>
 
         <h3>V. Add contextual html tags to all of your content!</h3>
-
         <p>
           I will do an example on the projector in lab so feel free to follow
           along.
@@ -82,7 +81,12 @@ class HtmlCheckpointTwo extends React.Component {
         </h3>
 
         <h3>
-          VII. Save, compress and submit your folder to the <i>lab section</i>{" "}
+          VII. Test your pages in the browser and make sure your 'home' and
+          'resume' navigation links work on both pages.
+        </h3>
+
+        <h3>
+          VIII. Save, compress and submit your folder to the <i>lab section</i>{" "}
           of PolyLearn!
         </h3>
 
@@ -98,6 +102,10 @@ class HtmlCheckpointTwo extends React.Component {
             </ul>
           </li>
           <li>Follow the proper firstname-lastname-site-checkpoint2</li>
+          <li>
+            Make sure your 'home' and 'resume' navigation links work on both
+            pages
+          </li>
         </ul>
 
         <hr />

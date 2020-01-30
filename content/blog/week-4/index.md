@@ -15,7 +15,7 @@ classification: "week"
 
 ## Tonight in Lab
 
-- Review <a href="/html-checkpoint-one/">HTML Site Checkpoint #1</a> and complete an example as a class
+- Review <a href="/html-checkpoint-one/">HTML Site Checkpoint #1</a> and complete an example as a class.
 - Refactoring HTML Site Checkpoint #1 on <a href="https://codepen.io/" target="_blank">CodePen.io</a>
 - <a href="/html-checkpoint-two/">HTML Site Checkpoint #2</a>
   - resume.html markup
