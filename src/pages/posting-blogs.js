@@ -57,6 +57,7 @@ class PostingBlogs extends React.Component {
               the template with some dummy text for reference:
             </p>
             <img src={writtenPost} alt="hlth320" style={imgShadow} />
+            <hr />
           </li>
 
           <li>
@@ -77,6 +78,7 @@ class PostingBlogs extends React.Component {
               to click the option for "Open in a new tab".
             </p>
             <img src={linkPopulation} alt="!" style={imgShadow} />
+            <hr />
           </li>
 
           <li>
@@ -88,6 +90,7 @@ class PostingBlogs extends React.Component {
             <img src={documentTab} alt="1" style={imgShadow} />
             <p>Populate your tags and categories fields</p>
             <img src={tagsAndCats} alt="1" style={imgShadow} />
+            <hr />
           </li>
 
           <li>
@@ -97,6 +100,7 @@ class PostingBlogs extends React.Component {
               to view your post on your blog.
             </p>
             <img src={confirmation} alt="1" style={imgShadow} />
+            <hr />
           </li>
         </ol>
       </Layout>
