@@ -14,6 +14,7 @@ import ListItem from "@material-ui/core/ListItem"
 import ListItemIcon from "@material-ui/core/ListItemIcon"
 import ListItemText from "@material-ui/core/ListItemText"
 import AssignmentIcon from "@material-ui/icons/Assignment"
+import PostAddIcon from "@material-ui/icons/PostAdd"
 import HomeIcon from "@material-ui/icons/Home"
 import DateRangeIcon from "@material-ui/icons/DateRange"
 import { Link } from "gatsby"
@@ -326,6 +327,27 @@ export default function PersistentDrawerLeft() {
               </Link>
             )
           })}
+        </List>
+        <Divider />
+        <h4
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            margin: "2rem 0 1rem",
+            textAlign: "center",
+          }}
+        >
+          Helpful Documents
+        </h4>
+        <List className={classes.listStyle}>
+          <Link to="/posting-blogs/">
+            <ListItem button key="1">
+              <ListItemIcon style={{ color: "#035642" }}>
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="Posting New Blog Posts" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
       <main
