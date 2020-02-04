@@ -265,7 +265,7 @@ export default function PersistentDrawerLeft() {
             {
               title: "HTML Site Checkpoint #3",
               classification: "assignment",
-              url: "#",
+              url: "/html-checkpoint-three/",
             },
             {
               title: "HTML Site Checkpoint #4",
