@@ -7,7 +7,7 @@ classification: "week"
 
 ## Homework to be completed before lab this week
 
-- TBD
+- Work on your video PSA
 
 ## Tonight in Lab
 

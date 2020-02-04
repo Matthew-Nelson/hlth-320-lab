@@ -12,7 +12,9 @@ classification: "week"
 
 ## Tonight in Lab
 
-- More web work!
+- Introduction to Footage Challenge #2
+- Intoduction to Bootstrap
+- Integrate Bootstrap into HTML Sites
 
 ## Due at the end of lab
 

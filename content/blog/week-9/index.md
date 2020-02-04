@@ -11,12 +11,13 @@ classification: "week"
 
 ## Tonight in Lab
 
-- Look through and discuss samples of student footage from Footage Challenge #1
-- This week is purposefully TBD.
+- Introduction to Video PSA
+- Look through and discuss samples of student footage from Footage Challenge #2
+- Video Storyboarding
 
 ## Due at the end of lab
 
-- Again, purposefully TBD.
+- TBD...
 
 ## Homework for next week
 

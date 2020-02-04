@@ -7,7 +7,7 @@ classification: "week"
 
 ## Tonight in Lab
 
-- Open lab! Come in, work on your sites, converse with your classmates, work on your blog, come get help with homework, or basically whatever you want for those three hours on Wednesday night.
+- Open lab! Come in, work on your sites, converse with your classmates, work on your blog, come get help with homework or basically whatever you want for those three hours on Wednesday night.
 
 ## Homework for next week
 

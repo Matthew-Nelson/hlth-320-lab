@@ -24,7 +24,7 @@ class HtmlCheckpointTwo extends React.Component {
   render() {
     return (
       <Layout location={"/html-checkpoint-two/"} title={"HLTH 320 Lab"}>
-        <SEO title="HTML Checkpoint #1" />
+        <SEO title="HTML Checkpoint #2" />
         <h1>HTML Site Checkpoint #2</h1>
         <p>
           To be completed as part of <Link to="/week-4/">week 4's</Link> lab. We
