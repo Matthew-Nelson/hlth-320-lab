@@ -12,7 +12,7 @@ class FootageChallengeOne extends React.Component {
   render() {
     return (
       <Layout location={"/html-checkpoint-one/"} title={"HLTH 320 Lab"}>
-        <SEO title="HTML Checkpoint #1" />
+        <SEO title="Footage Challenge #1" />
         <h1>Footage Challenge #1 - Welcome to Cal Poly</h1>
         <p>
           To be completed before <Link to="/week-6/">week 6's</Link> lab.

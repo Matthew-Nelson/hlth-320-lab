@@ -14,7 +14,7 @@ classification: "week"
 ## Tonight in Lab
 
 - Introduction to <a href="/footage-challenge-one/">Footage Challenge #1</a>
-- Customizing with CSS
+- Customizing with CSS in <a href="https://codepen.io/pen/" target="_blank" rel="noopener noreferrer">CodePen.io</a>
 - <a href="/html-checkpoint-three">HTML Site Checkpoint #3</a>
 
 ## Due at the end of lab
