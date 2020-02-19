@@ -11,5 +11,6 @@ classification: "week"
 
 ## Homework for next week
 
-- CodeCademy CSS 6a
-- CodeCademy CSS 6d
+- CodeCademy CSS:
+  - <a href="https://www.codecademy.com/courses/learn-css/lessons/css-grid-i/exercises/grid-intro" target="_blank">CSS Grid Essentials</a>
+  - <a href="https://www.codecademy.com/courses/learn-css/lessons/css-grid-ii/exercises/introduction-css-grid-ii" target="_blank">Advanced CSS Grid</a>

@@ -13,26 +13,6 @@ classification: "week"
 
 ### Video Challenge Review...
 
-<div style="display: none;">
-
-<video width="100%" controls>
-    <source src="./footage_challenge_2.mp4" type="video/mp4">
-</video>
-
-<video width="100%" controls>
-    <source src="./footage_challenge_3.mp4" type="video/mp4">
-</video>
-
-<video width="100%" controls>
-    <source src="./footage_challenge_4.mp4" type="video/mp4">
-</video>
-
-<video width="100%" controls>
-    <source src="./footage_challenge_1.mp4" type="video/mp4">
-</video>
-
-</div>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f2picMQC-9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Photo Editing...

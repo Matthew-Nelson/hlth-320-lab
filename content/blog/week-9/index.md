@@ -11,14 +11,14 @@ classification: "week"
 
 ## Tonight in Lab
 
-- Introduction to Video PSA
 - Look through and discuss samples of student footage from Footage Challenge #2
 - Video Storyboarding
+- Work on HTML Sites
 
 ## Due at the end of lab
 
-- TBD...
+- Video Storyboarding Assignment
 
 ## Homework for next week
 
-- Video PSA (time permitting)
+- Continue work on HTML Site

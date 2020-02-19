@@ -7,14 +7,15 @@ classification: "week"
 
 ## Homework to be completed before lab this week
 
-- CodeCademy CSS 6a
-- CodeCademy CSS 6d
+- CodeCademy CSS:
+  - <a href="https://www.codecademy.com/courses/learn-css/lessons/css-grid-i/exercises/grid-intro" target="_blank">CSS Grid Essentials</a>
+  - <a href="https://www.codecademy.com/courses/learn-css/lessons/css-grid-ii/exercises/introduction-css-grid-ii" target="_blank">Advanced CSS Grid</a>
 
 ## Tonight in Lab
 
 - Introduction to Footage Challenge #2
-- Intoduction to Bootstrap
-- Integrate Bootstrap into HTML Sites
+- Introduction to HTML Site
+- <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> introduction and integration to HTML Site.
 
 ## Due at the end of lab
 
@@ -23,3 +24,4 @@ classification: "week"
 ## Homework for next week
 
 - Footage Challenge #2
+- Continue work on HTML Site

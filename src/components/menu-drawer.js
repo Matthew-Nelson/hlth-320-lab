@@ -287,11 +287,6 @@ export default function PersistentDrawerLeft() {
               classification: "assignment",
               url: "#",
             },
-            {
-              title: "Video PSA",
-              classification: "assignment",
-              url: "#",
-            },
           ].map((obj, index) => {
             let icon
             switch (obj.classification) {
