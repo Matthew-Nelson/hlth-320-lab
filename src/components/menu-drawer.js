@@ -285,7 +285,7 @@ export default function PersistentDrawerLeft() {
             {
               title: "Footage Challenge #2",
               classification: "assignment",
-              url: "#",
+              url: "/footage-challenge-two/",
             },
           ].map((obj, index) => {
             let icon

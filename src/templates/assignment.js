@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { graphql } from "gatsby"
 
 class AssignmentTemplate extends React.Component {
   render() {

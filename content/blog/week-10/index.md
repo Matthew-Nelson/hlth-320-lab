@@ -11,11 +11,12 @@ classification: "week"
 
 ## Tonight in Lab
 
-- Open lab. This is a great opportunity to come in and work on your HTML Sites which will be due before finals week.
+- Time permitting: Look through and discuss samples of student footage from Footage Challenge #2.
+- Work on personal HTML Site.
 
 ## Due at the end of lab
 
-- Nothing
+- Nothing due
 
 ## Homework for next week
 
