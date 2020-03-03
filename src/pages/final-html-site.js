@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -217,37 +217,18 @@ class FinalHTMLSite extends React.Component {
         </ol>
 
         <hr />
-        <h2>Fonts and Color Pallette Resources</h2>
-        <div style={wrapperStyling}>
-          <iframe
-            style={iframeStyle}
-            title="Graphic Design Tutorial: Choosing fonts"
-            src="https://www.youtube.com/embed/Xwahw7mdeXQ"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div style={wrapperStyling}>
-          <iframe
-            style={iframeStyle}
-            title="How To Choose The Right Font For You Web Site"
-            src="https://www.youtube.com/embed/I51ZY1QGPCs"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div style={wrapperStyling}>
-          <iframe
-            style={iframeStyle}
-            title="Graphic Design Tutorial: Basic colour palettes"
-            src="https://www.youtube.com/embed/qoHhL5Xksmw"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+
+        <h2>Helpful Resources</h2>
+
+        <Link to="/fonts-and-colors/">
+          <h4>Fonts and Color Pallette Resources</h4>
+        </Link>
+
+        <h4>How to Validate Your Site</h4>
+        <p>(instructions in progress)</p>
+
+        <h4>How to submit your site to Github</h4>
+        <p>(instructions in progress)</p>
       </Layout>
     )
   }
@@ -255,22 +236,6 @@ class FinalHTMLSite extends React.Component {
 
 const imgShadow = {
   boxShadow: "0px 5px 15px 0px rgba(3,86,66,0.5)",
-}
-
-const wrapperStyling = {
-  position: "relative",
-  paddingBottom: "56.25%",
-  paddingTop: "25px",
-  height: 0,
-  marginBottom: "1.5rem",
-}
-
-const iframeStyle = {
-  position: "absolute",
-  top: 0,
-  left: 0,
-  width: "100%",
-  height: "100%",
 }
 
 export default FinalHTMLSite

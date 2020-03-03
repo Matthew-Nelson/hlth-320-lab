@@ -118,15 +118,17 @@ class FootageChallengeTwo extends React.Component {
         </ul>
 
         <h2>File Name &amp; Submission</h2>
+
         <p>
-          Make sure you name your file so that it includes your name and fc2,
-          such as "Brandon fc2.mov" or "Brandon fc2.mp4" or "Brandon fc2.avi"
+          Both of your videos should be contained within one folder which will
+          then be compressed and submitted to PolyLearn. Make sure you name your
+          folder <strong>firstname-lastname-fc2</strong>.
         </p>
 
         <p>
-          Submit your video file via PolyLearn. You may have to compress the
-          footage to a .zip file. This should be submitted prior to Week 10's
-          lab.
+          Submit your compressed folder via PolyLearn. You will have to compress
+          the footage to a .zip file. This should be submitted prior to Week
+          10's lab.
         </p>
       </Layout>
     )

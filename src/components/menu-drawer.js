@@ -343,6 +343,14 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary="Posting New Blog Posts" />
             </ListItem>
           </Link>
+          <Link to="/fonts-and-colors/">
+            <ListItem button key="2">
+              <ListItemIcon style={{ color: "#035642" }}>
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="Fonts and Color Pallette Resources" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
       <main
