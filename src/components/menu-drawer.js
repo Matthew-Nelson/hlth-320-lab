@@ -275,7 +275,7 @@ export default function PersistentDrawerLeft() {
             {
               title: "Final HTML Site",
               classification: "assignment",
-              url: "#",
+              url: "/final-html-site/",
             },
             {
               title: "Footage Challenge #1",

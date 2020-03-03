@@ -77,6 +77,7 @@ class Layout extends React.Component {
         >
           <header>{header}</header>
           <main>{children}</main>
+          <hr />
           <footer>© {new Date().getFullYear()}, Built by Matt Nelson</footer>
         </div>
       </ThemeProvider>

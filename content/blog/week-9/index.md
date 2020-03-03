@@ -13,7 +13,7 @@ classification: "week"
 ## Tonight in Lab
 
 - Introduction to <a href="/footage-challenge-one/">Footage Challenge #2</a>
-- Introduction to HTML Site assignment
+- Introduction to <a href="/final-html-site/">HTML Site assignment</a>
 - <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> introduction and integration to HTML Site as part of HTML Site Checkpoint #4.
 
 ## Due at the end of lab
