@@ -351,6 +351,14 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary="Fonts and Color Pallette Resources" />
             </ListItem>
           </Link>
+          <Link to="/validating-site/">
+            <ListItem button key="3">
+              <ListItemIcon style={{ color: "#035642" }}>
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="How to Validate Your Site" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
       <main

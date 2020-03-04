@@ -66,11 +66,11 @@ class HtmlCheckpointTwo extends React.Component {
           </li>
           <li>
             <a
-              href="https://getbootstrap.com/docs/4.4/components/card/"
+              href="https://getbootstrap.com/docs/4.4/layout/overview/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Card
+              Container
             </a>
           </li>
 

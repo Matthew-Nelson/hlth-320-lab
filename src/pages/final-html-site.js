@@ -196,6 +196,12 @@ class FinalHTMLSite extends React.Component {
               SUBMISSION FOR GRADING: Did you submit your files to PolyLearn?
               This is the version of your site that I will grade.
             </strong>
+            <ul>
+              <li>
+                Make sure that you are submitting one compressed folder
+                following the 'firstname-lastname-site-final' naming convention
+              </li>
+            </ul>
           </li>
 
           <li>
@@ -224,8 +230,9 @@ class FinalHTMLSite extends React.Component {
           <h4>Fonts and Color Pallette Resources</h4>
         </Link>
 
-        <h4>How to Validate Your Site</h4>
-        <p>(instructions in progress)</p>
+        <Link to="/validating-site/">
+          <h4>How to Validate Your Site</h4>
+        </Link>
 
         <h4>How to submit your site to Github</h4>
         <p>(instructions in progress)</p>

@@ -1,7 +1,7 @@
 ---
 title: Week 10
 date: "2020-01-23T05:00:00.000Z"
-description: "Open lab time on both nights."
+description: "No longer an open lab - focused work on HTML sites"
 classification: "week"
 ---
 
