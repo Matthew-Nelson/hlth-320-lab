@@ -205,7 +205,7 @@ class FinalHTMLSite extends React.Component {
           </li>
 
           <li>
-            <strong>EXTRA CREDIT:</strong>
+            <strong>EXTRA CREDIT OPPORTUNITIES:</strong>
             <ul>
               <li>Have you published your website to GitHub? </li>
               <li>
