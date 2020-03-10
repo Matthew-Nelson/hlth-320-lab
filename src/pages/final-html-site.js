@@ -55,6 +55,11 @@ class FinalHTMLSite extends React.Component {
         </h3>
         <ul>
           <li>Appear professional</li>
+          <li>Have consistent formatting from page to page</li>
+          <li>
+            Have working navigation on all pages (all links work and go to their
+            intended pages)
+          </li>
           <li>Hit all points on the checklist below</li>
         </ul>
 
@@ -62,7 +67,19 @@ class FinalHTMLSite extends React.Component {
         <ul>
           <li>Incorporate something you found on CodePen.</li>
           <li>
-            Upload this project to GitHub to have it hosted online for free.
+            <span style={{ textDecoration: "line-through" }}>
+              Upload this project to GitHub to have it hosted online for free.
+            </span>
+            <ul>
+              <li>
+                Hosting this project on GitHub would add nother layer of
+                complexity that I think would be a very significant time sink.
+                If you would like to do this feel free, but I don't think I can
+                reasonably offer this as extra credit without at least
+                attempting it with the class. For this reason, I am not offering
+                this as extra credit.
+              </li>
+            </ul>
           </li>
         </ul>
 
@@ -207,7 +224,9 @@ class FinalHTMLSite extends React.Component {
           <li>
             <strong>EXTRA CREDIT OPPORTUNITIES:</strong>
             <ul>
-              <li>Have you published your website to GitHub? </li>
+              <li style={{ textDecoration: "line-through" }}>
+                Have you published your website to GitHub?{" "}
+              </li>
               <li>
                 Did you incorporate something you found on CodePen?
                 <ul>
@@ -234,8 +253,9 @@ class FinalHTMLSite extends React.Component {
           <h4>How to Validate Your Site</h4>
         </Link>
 
-        <h4>How to submit your site to Github</h4>
-        <p>(instructions in progress)</p>
+        <h4 style={{ textDecoration: "line-through" }}>
+          How to submit your site to Github
+        </h4>
       </Layout>
     )
   }
