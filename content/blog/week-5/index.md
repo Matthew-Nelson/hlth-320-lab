@@ -1,7 +1,7 @@
 ---
 title: Week 5
 date: "2020-01-23T00:05:00.000Z"
-description: "We dive into Bootstrap and continue working on our HTML sites"
+description: "We dive into customizing with CSS and continue working on our HTML sites"
 classification: "week"
 ---
 
@@ -13,9 +13,9 @@ classification: "week"
 
 ## Tonight in Lab
 
-- Customizing with CSS
-- Intoduction to Boostrap
-- HTML Site Checkpoint #3
+- Introduction to <a href="/footage-challenge-one/">Footage Challenge #1</a>
+- Customizing with CSS in <a href="https://codepen.io/pen/" target="_blank" rel="noopener noreferrer">CodePen.io</a>
+- <a href="/html-checkpoint-three">HTML Site Checkpoint #3</a>
 
 ## Due at the end of lab
 

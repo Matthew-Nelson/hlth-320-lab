@@ -14,6 +14,7 @@ import ListItem from "@material-ui/core/ListItem"
 import ListItemIcon from "@material-ui/core/ListItemIcon"
 import ListItemText from "@material-ui/core/ListItemText"
 import AssignmentIcon from "@material-ui/icons/Assignment"
+import PostAddIcon from "@material-ui/icons/PostAdd"
 import HomeIcon from "@material-ui/icons/Home"
 import DateRangeIcon from "@material-ui/icons/DateRange"
 import { Link } from "gatsby"
@@ -259,22 +260,22 @@ export default function PersistentDrawerLeft() {
             {
               title: "HTML Site Checkpoint #2",
               classification: "assignment",
-              url: "#",
+              url: "/html-checkpoint-two/",
             },
             {
               title: "HTML Site Checkpoint #3",
               classification: "assignment",
-              url: "#",
+              url: "/html-checkpoint-three/",
             },
             {
               title: "HTML Site Checkpoint #4",
               classification: "assignment",
-              url: "#",
+              url: "/html-checkpoint-four/",
             },
             {
               title: "Final HTML Site",
               classification: "assignment",
-              url: "#",
+              url: "/final-html-site/",
             },
             {
               title: "Footage Challenge #1",
@@ -284,12 +285,7 @@ export default function PersistentDrawerLeft() {
             {
               title: "Footage Challenge #2",
               classification: "assignment",
-              url: "#",
-            },
-            {
-              title: "Video PSA",
-              classification: "assignment",
-              url: "#",
+              url: "/footage-challenge-two/",
             },
           ].map((obj, index) => {
             let icon
@@ -326,6 +322,43 @@ export default function PersistentDrawerLeft() {
               </Link>
             )
           })}
+        </List>
+        <Divider />
+        <h4
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            margin: "2rem 0 1rem",
+            textAlign: "center",
+          }}
+        >
+          Helpful Documents
+        </h4>
+        <List className={classes.listStyle}>
+          <Link to="/posting-blogs/">
+            <ListItem button key="1">
+              <ListItemIcon style={{ color: "#035642" }}>
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="Posting New Blog Posts" />
+            </ListItem>
+          </Link>
+          <Link to="/fonts-and-colors/">
+            <ListItem button key="2">
+              <ListItemIcon style={{ color: "#035642" }}>
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="Fonts and Color Pallette Resources" />
+            </ListItem>
+          </Link>
+          <Link to="/validating-site/">
+            <ListItem button key="3">
+              <ListItemIcon style={{ color: "#035642" }}>
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="How to Validate Your Site" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
       <main
